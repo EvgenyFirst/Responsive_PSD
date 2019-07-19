@@ -29,7 +29,6 @@
     padding-top: 50px;
 
     a:first-child {
-        padding-right: 326px;
         text-decoration: none;
         font-size: 28px;
         color: #a9d6df;
@@ -47,6 +46,20 @@
         
     }
     a:last-child {
+        position: relative;
+        left: 326px;
+        bottom: 7px;
+
+        span {
+            padding-left: 98px;
+            padding-bottom: 10px;
+    
+            background: url(../img/1024/arrow-section-2-1024.png);
+            background-repeat: no-repeat;
+            width: 17px;
+            height: 27px;
+        }
+
         &:hover {
             opacity: 0.7;
             transition: 0.5s;

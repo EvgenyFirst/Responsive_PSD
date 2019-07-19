@@ -5,6 +5,51 @@
 /*  Section-3  */
 /* ----------- */
 
+
+.section-3_flex {
+    display: flex;
+}
+
+.section-3_flex__left {
+    background-color: #27212c;
+    width: 796px;
+
+    p {
+        padding-top: 114px;
+        padding-left: 82px;
+        padding-right: 146px;
+        padding-bottom: 108px;
+
+        font-size: 25px;
+        color: #9787a6;
+        font-weight: bold;
+    }
+}
+.section-3_flex__right {
+    background-color: #bc3183;
+    padding-top: 130px;
+    padding-left: 98px;
+    padding-right: 32px;
+    span {
+        padding-left: 98px;
+        padding-bottom: 20px;
+
+        background: url(../img/1024/arrow-section-3-1024.png);
+        background-repeat: no-repeat;
+        width: 27px;
+        height: 38px;
+    }
+
+    &:hover {
+        opacity: 0.9;
+        transition: 0.5s;
+    }
+    &:active,
+    &:focus {
+        opacity: 0.8;
+        transition: 1s;
+    }
+}
 /* ----------- */
 /*  Section-3  */
 /*     end     */

@@ -2,11 +2,58 @@
 /* ------------------------------------------------------------ */
 
 /* ----------- */
-/*  Section-4 */
+/*  Section-4  */
 /* ----------- */
 
+.section-4 {
+    min-height: 294px;
+}
+
+.section-4_flex {
+    display: flex;
+}
+
+.section-4_flex__1 {
+    background-color: #5b0fa1;
+    padding-top: 126px;
+    padding-right: 84px;
+    padding-left: 159px;
+    padding-bottom: 139px;
+    span {
+        padding-left: 98px;
+        padding-bottom: 20px;
+
+        background: url(../img/1024/arrow-section-3-1024.png);
+        background-repeat: no-repeat;
+        width: 18px;
+        height: 30px;
+    }
+
+    &:hover {
+        opacity: 0.9;
+        transition: 0.5s;
+    }
+    &:active,
+    &:focus {
+        opacity: 0.8;
+        transition: 1s;
+    }
+}
+.section-4_flex__2 {
+    background: url(../img/1024/photo-1-section-4-1024.jpg);
+    background-repeat: no-repeat;
+    width: 341px;
+    height: 294px;
+}
+.section-4_flex__3 {
+    background: url(../img/1024/photo-2-section-4-1024.jpg);
+    background-repeat: no-repeat;
+    width: 341px;
+    height: 294px;
+}
+
 /* ----------- */
-/*  Section-4 */
+/*  Section-4  */
 /*     end     */
 /* ----------- */
  
