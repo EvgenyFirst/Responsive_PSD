@@ -5,6 +5,73 @@
 /*  Section-5  */
 /* ----------- */
 
+
+.section-5 {
+    background-color: #ebebeb;
+}
+
+.section-5__box {
+    padding-top: 54px;
+    padding-left: 82px;
+    padding-right: 86px;
+    padding-bottom: 174px;
+
+    h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+        a {
+            text-decoration: none;
+            font-size: 30px;
+            color: #088ca5;
+            font-weight: 500;
+
+            &:hover {
+                opacity: 0.5;
+                transition: 0.5s;
+            }
+            &:active,
+            &:focus {
+                opacity: 0.6;
+                transition: 1s;
+            }
+        }
+    }
+
+}
+
+.section-5__box-tezt {
+    display: flex;
+}
+
+.box-tezt__left,
+.box-tezt__right {
+    width: 409px;
+
+    p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+        font-size: 14px;
+        color: #515151;
+        font-weight: 600;
+        line-height: 1.6;
+
+        &:last-child {
+            padding-top: 46px;
+        }
+    }
+
+}
+
+.box-tezt__left {
+    padding-top: 33px;
+    padding-right: 42px;
+}   
+.box-tezt__right {
+    padding-top: 33px;
+}
+
 /* ----------- */
 /*  Section-5  */
 /*     end     */
