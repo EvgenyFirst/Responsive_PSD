@@ -5,10 +5,6 @@
 /*  Section-4  */
 /* ----------- */
 
-.section-4 {
-    min-height: 294px;
-}
-
 .section-4_flex {
     display: flex;
 }
@@ -19,6 +15,18 @@
     padding-right: 84px;
     padding-left: 159px;
     padding-bottom: 139px;
+
+    @media screen and (max-width: 980px) {
+        padding-top: 119px;
+        padding-right: 76px;
+        padding-left: 154px;
+        padding-bottom: 134px;
+    }
+    @media screen and (max-width: 730px) {
+        padding-right: 1px;
+        padding-left: 73px;
+    }
+
     span {
         padding-left: 98px;
         padding-bottom: 20px;
@@ -27,6 +35,13 @@
         background-repeat: no-repeat;
         width: 18px;
         height: 30px;
+
+        @media screen and (max-width: 980px) {
+            background: url(../img/980/arrow-section-4-980.png);
+            background-repeat: no-repeat;
+            width: 18px;
+            height: 28px;
+        }
     }
 
     &:hover {
@@ -44,12 +59,28 @@
     background-repeat: no-repeat;
     width: 341px;
     height: 294px;
+
+    @media screen and (max-width: 980px) {
+        background: url(../img/980/photo-1-section-4-980.jpg);
+        background-repeat: no-repeat;
+        width: 326px;
+        height: 282px;
+    }
+
 }
 .section-4_flex__3 {
     background: url(../img/1024/photo-2-section-4-1024.jpg);
     background-repeat: no-repeat;
     width: 341px;
     height: 294px;
+
+    @media screen and (max-width: 980px) {
+        background: url(../img/980/photo-2-section-4-980.jpg);
+        background-repeat: no-repeat;
+        width: 326px;
+        height: 282px;
+    }
+
 }
 
 /* ----------- */

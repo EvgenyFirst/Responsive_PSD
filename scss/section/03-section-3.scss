@@ -8,6 +8,11 @@
 
 .section-3_flex {
     display: flex;
+
+    @media screen and (max-width: 980px) {
+        height: 234px;
+    }
+
 }
 
 .section-3_flex__left {
@@ -23,13 +28,28 @@
         font-size: 25px;
         color: #9787a6;
         font-weight: bold;
+
+        @media screen and (max-width: 980px) {
+            padding-top: 70px;
+            padding-left: 81px;
+            padding-right: 140px;
+            padding-bottom: 104px;
+        }
+
     }
 }
 .section-3_flex__right {
     background-color: #bc3183;
     padding-top: 130px;
-    padding-left: 98px;
+    padding-left: 95px;
     padding-right: 32px;
+
+    @media screen and (max-width: 980px) {
+        padding-top: 92px;
+        padding-right: 32px;
+        padding-left: 104px;
+    }
+
     span {
         padding-left: 98px;
         padding-bottom: 20px;
@@ -38,6 +58,14 @@
         background-repeat: no-repeat;
         width: 27px;
         height: 38px;
+
+        @media screen and (max-width: 980px) {
+            background: url(../img/980/arrow-section-3-980.png);
+            background-repeat: no-repeat;
+            width: 22px;
+            height: 36px;
+        }
+
     }
 
     &:hover {

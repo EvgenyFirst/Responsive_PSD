@@ -97,6 +97,12 @@ img {
   padding-top: 205px;
   padding-left: 82px;
   padding-bottom: 169px; }
+  @media screen and (max-width: 980px) {
+    .section-2__box {
+      padding-top: 192px;
+      padding-left: 81px;
+      padding-bottom: 164px;
+      padding-right: 5px; } }
   .section-2__box h2 {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -106,6 +112,18 @@ img {
 
 .box--href {
   padding-top: 50px; }
+  @media screen and (max-width: 980px) {
+    .box--href {
+      padding-top: 49px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
   .box--href a:first-child {
     text-decoration: none;
     font-size: 28px;
@@ -125,6 +143,16 @@ img {
     position: relative;
     left: 326px;
     bottom: 7px; }
+    @media screen and (max-width: 980px) {
+      .box--href a:last-child {
+        width: 21px;
+        left: 627px;
+        bottom: 27px; } }
+    @media screen and (max-width: 730px) {
+      .box--href a:last-child {
+        width: 21px;
+        left: 492px;
+        bottom: 27px; } }
     .box--href a:last-child span {
       padding-left: 98px;
       padding-bottom: 10px;
@@ -132,6 +160,21 @@ img {
       background-repeat: no-repeat;
       width: 17px;
       height: 27px; }
+      @media screen and (max-width: 980px) {
+        .box--href a:last-child span {
+          background: url(../img/980/arrow-section-2-980.png);
+          background-repeat: no-repeat;
+          width: 16px;
+          height: 27px;
+          padding-left: 14px; } }
+      @media screen and (max-width: 731px) {
+        .box--href a:last-child span {
+          position: relative;
+          right: 95px; } }
+      @media screen and (max-width: 668px) {
+        .box--href a:last-child span {
+          position: relative;
+          right: 95px; } }
     .box--href a:last-child:hover {
       opacity: 0.7;
       -webkit-transition: 0.5s;
@@ -158,6 +201,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  @media screen and (max-width: 980px) {
+    .section-3_flex {
+      height: 234px; } }
 
 .section-3_flex__left {
   background-color: #27212c;
@@ -170,12 +216,23 @@ img {
     font-size: 25px;
     color: #9787a6;
     font-weight: bold; }
+    @media screen and (max-width: 980px) {
+      .section-3_flex__left p {
+        padding-top: 70px;
+        padding-left: 81px;
+        padding-right: 140px;
+        padding-bottom: 104px; } }
 
 .section-3_flex__right {
   background-color: #bc3183;
   padding-top: 130px;
-  padding-left: 98px;
+  padding-left: 95px;
   padding-right: 32px; }
+  @media screen and (max-width: 980px) {
+    .section-3_flex__right {
+      padding-top: 92px;
+      padding-right: 32px;
+      padding-left: 104px; } }
   .section-3_flex__right span {
     padding-left: 98px;
     padding-bottom: 20px;
@@ -183,6 +240,12 @@ img {
     background-repeat: no-repeat;
     width: 27px;
     height: 38px; }
+    @media screen and (max-width: 980px) {
+      .section-3_flex__right span {
+        background: url(../img/980/arrow-section-3-980.png);
+        background-repeat: no-repeat;
+        width: 22px;
+        height: 36px; } }
   .section-3_flex__right:hover {
     opacity: 0.9;
     -webkit-transition: 0.5s;
@@ -205,9 +268,6 @@ img {
 /* ----------- */
 /*  Section-4  */
 /* ----------- */
-.section-4 {
-  min-height: 294px; }
-
 .section-4_flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -219,6 +279,16 @@ img {
   padding-right: 84px;
   padding-left: 159px;
   padding-bottom: 139px; }
+  @media screen and (max-width: 980px) {
+    .section-4_flex__1 {
+      padding-top: 119px;
+      padding-right: 76px;
+      padding-left: 154px;
+      padding-bottom: 134px; } }
+  @media screen and (max-width: 730px) {
+    .section-4_flex__1 {
+      padding-right: 1px;
+      padding-left: 73px; } }
   .section-4_flex__1 span {
     padding-left: 98px;
     padding-bottom: 20px;
@@ -226,6 +296,12 @@ img {
     background-repeat: no-repeat;
     width: 18px;
     height: 30px; }
+    @media screen and (max-width: 980px) {
+      .section-4_flex__1 span {
+        background: url(../img/980/arrow-section-4-980.png);
+        background-repeat: no-repeat;
+        width: 18px;
+        height: 28px; } }
   .section-4_flex__1:hover {
     opacity: 0.9;
     -webkit-transition: 0.5s;
@@ -242,12 +318,24 @@ img {
   background-repeat: no-repeat;
   width: 341px;
   height: 294px; }
+  @media screen and (max-width: 980px) {
+    .section-4_flex__2 {
+      background: url(../img/980/photo-1-section-4-980.jpg);
+      background-repeat: no-repeat;
+      width: 326px;
+      height: 282px; } }
 
 .section-4_flex__3 {
   background: url(../img/1024/photo-2-section-4-1024.jpg);
   background-repeat: no-repeat;
   width: 341px;
   height: 294px; }
+  @media screen and (max-width: 980px) {
+    .section-4_flex__3 {
+      background: url(../img/980/photo-2-section-4-980.jpg);
+      background-repeat: no-repeat;
+      width: 326px;
+      height: 282px; } }
 
 /* ----------- */
 /*  Section-4  */
@@ -268,6 +356,12 @@ img {
   padding-left: 82px;
   padding-right: 86px;
   padding-bottom: 174px; }
+  @media screen and (max-width: 980px) {
+    .section-5__box {
+      padding-top: 71px;
+      padding-right: 89px;
+      padding-left: 77px;
+      padding-bottom: 89px; } }
   .section-5__box h2 {
     margin-top: 0px;
     margin-bottom: 0px; }
@@ -291,10 +385,18 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  @media screen and (max-width: 980px) {
+    .section-5__box-tezt {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; } }
 
 .box-tezt__left,
 .box-tezt__right {
   width: 409px; }
+  @media screen and (max-width: 980px) {
+    .box-tezt__left,
+    .box-tezt__right {
+      width: 378px; } }
   .box-tezt__left p,
   .box-tezt__right p {
     margin-top: 0px;
@@ -303,6 +405,10 @@ img {
     color: #515151;
     font-weight: 600;
     line-height: 1.6; }
+    @media screen and (max-width: 980px) {
+      .box-tezt__left p,
+      .box-tezt__right p {
+        font-size: 13px; } }
     .box-tezt__left p:last-child,
     .box-tezt__right p:last-child {
       padding-top: 46px; }
@@ -310,6 +416,10 @@ img {
 .box-tezt__left {
   padding-top: 33px;
   padding-right: 42px; }
+  @media screen and (max-width: 980px) {
+    .box-tezt__left {
+      padding-top: 33px;
+      padding-right: 42px; } }
 
 .box-tezt__right {
   padding-top: 33px; }
