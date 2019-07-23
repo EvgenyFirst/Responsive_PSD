@@ -22,6 +22,12 @@
         padding-bottom: 164px; 
         padding-right: 5px;
     }
+    @media screen and (max-width: 640px) {
+        padding-top: 116px;
+        padding-left: 51px;
+        padding-bottom: 106px; 
+        padding-right: 5px;
+    }
 
     h2 {
         margin-top: 0px;
@@ -29,6 +35,11 @@
         font-size: 55px;
         color: #ffffff;
         font-weight: bold;
+
+        @media screen and (max-width: 640px) {
+            font-size: 35px;
+        }
+
     }
 }
 
@@ -40,6 +51,9 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+    }
+    @media screen and (max-width: 640px) {
+        padding-top: 31px;
     }
 
     a:first-child {
@@ -101,6 +115,16 @@
             @media screen and (max-width: 668px) {
                 position: relative;
                 right: 95px;
+            }
+            @media screen and (max-width: 640px) {
+                background: url(../img/640/arrow-section-2-640.png);
+                background-repeat: no-repeat;
+                width: 11px;
+                height: 18px;
+
+                position: relative;
+                top: 6px;
+                right: 92px;
             }
 
         }

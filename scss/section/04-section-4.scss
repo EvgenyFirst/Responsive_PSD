@@ -7,6 +7,11 @@
 
 .section-4_flex {
     display: flex;
+
+    @media screen and (max-width: 640px) {
+        flex-wrap: wrap;
+    }
+
 }
 
 .section-4_flex__1 {
@@ -26,6 +31,12 @@
         padding-right: 1px;
         padding-left: 73px;
     }
+    @media screen and (max-width: 640px) {
+        padding-top: 239x;
+        padding-right: 300px;
+        padding-left: 302px;
+        padding-bottom: 256px;
+    }
 
     span {
         padding-left: 98px;
@@ -41,6 +52,16 @@
             background-repeat: no-repeat;
             width: 18px;
             height: 28px;
+        }
+        @media screen and (max-width: 640px) {
+            background: url(../img/640/arrow-section-4-640.png);
+            background-repeat: no-repeat;
+            width: 33px;
+            height: 55px;
+            padding: 19px;
+
+            position: relative;
+            top: 62px;
         }
     }
 
@@ -66,6 +87,12 @@
         width: 326px;
         height: 282px;
     }
+    @media screen and (max-width: 640px) {
+        background: url(../img/640/photo-1-section-4-640.jpg);
+        background-repeat: no-repeat;
+        width: 640px;
+        height: 553px;
+    }
 
 }
 .section-4_flex__3 {
@@ -79,6 +106,12 @@
         background-repeat: no-repeat;
         width: 326px;
         height: 282px;
+    }
+    @media screen and (max-width: 640px) {
+        background: url(../img/640/photo-2-section-4-640.jpg);
+        background-repeat: no-repeat;
+        width: 640px;
+        height: 557px;
     }
 
 }

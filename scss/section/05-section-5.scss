@@ -22,10 +22,20 @@
         padding-left: 77px;
         padding-bottom: 89px;
     }
+    @media screen and (max-width: 640px) {
+        padding-top: 71px;
+        padding-right: 5px;
+        padding-left: 74px;
+        padding-bottom: 104px;
+    }
 
     h2 {
         margin-top: 0px;
         margin-bottom: 0px;
+
+        @media screen and (max-width: 640px) {
+            padding-left: 2px;
+        }
 
         a {
             text-decoration: none;
@@ -47,7 +57,7 @@
 
 }
 
-.section-5__box-tezt {
+.section-5__box-text {
     display: flex;
 
     @media screen and (max-width: 980px) {
@@ -56,8 +66,8 @@
 
 }
 
-.box-tezt__left,
-.box-tezt__right {
+.box-text__left,
+.box-text__right {
     width: 409px;
 
     @media screen and (max-width: 980px) {
@@ -76,6 +86,12 @@
         @media screen and (max-width: 980px) {
             font-size: 13px;
         }
+        @media screen and (max-width: 640px) {
+            font-size: 22px;
+            color: #515151;
+            font-weight: 600;
+            line-height: 2;
+        }
 
         &:last-child {
             padding-top: 46px;
@@ -84,7 +100,7 @@
 
 }
 
-.box-tezt__left {
+.box-text__left {
     padding-top: 33px;
     padding-right: 42px;
 
@@ -92,10 +108,29 @@
         padding-top: 33px;
         padding-right: 42px;
     }
+    @media screen and (max-width: 640px) {
+        width: 546px;
+        padding-top: 59px;
+        padding-right: 0px;
+
+        display: none;
+    }
 
 }   
-.box-tezt__right {
+.box-text__left-640 {
+
+    @media screen and (max-width: 640px) {
+        display: block;
+    }  
+
+}
+.box-text__right {
     padding-top: 33px;
+
+    @media screen and (max-width: 640px) {
+        display: none;
+    }
+
 }
 
 /* ----------- */

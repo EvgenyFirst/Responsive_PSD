@@ -7,10 +7,53 @@
 
 .section-1 {
     background-color: #373c3f;
+
+    @media screen and (max-width: 640px) {
+        min-height: 77px;
+    }
+
 }
 //padding-top: 45px;
 //padding-left: 54px;
 //padding-bottom: 41px; 
+
+.adaptive-block {
+    display: none;
+
+    @media screen and (max-width: 640px) {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+
+        justify-content: space-between;
+
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+        li {
+            h1 {
+                color: #ebebeb;
+                font-weight: 600;
+                font-size: 31px;
+            }
+
+            a {
+                span {
+                    position: absolute;
+                    right: 3px;
+        
+                    background: url(../img/640/burger-btn-section-1-640.jpg);
+                    background-repeat: no-repeat;
+                    width: 82px;
+                    height: 74px;
+                }
+            }
+        }
+    
+    }
+
+}
+
 .headers {
     list-style: none;
     display: flex;
@@ -51,6 +94,22 @@
         }
     }
 
+}
+.headers-x {
+
+    @media screen and (max-width: 640px) {
+        display: none;
+    }
+
+}
+
+.headers-adaptive {
+    display: none;
+    padding-top: 30px;
+    padding-bottom: 29px;
+}
+.headers-adaptive__close-btn {
+    margin-top: -25px;
 }
 
 /* ----------- */

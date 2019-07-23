@@ -19,7 +19,39 @@
 
 		<header class="section-1">
 			<h1 class="visually-hidden">Header</h1>
-			<ul class="headers">
+			<ul class="adaptive-block">
+				<li>
+					<h1 id="nav-adapt">Navigaion</h1>
+				</li>
+				<li>
+					<a id="btn-adapt" href="#" onmousedown="openMenuSection1()">
+						<span></span>
+					</a>
+				</li>
+			</ul>
+
+			<ul id="headers-adaptive" class="headers headers-adaptive">
+				<li>
+					<a href="#" onmousedown="closeMenuSection1()">PSD WEBSITES</a>
+				</li>
+				<li>
+					<a href="#"onmousedown="closeMenuSection1()">UI KITS</a>
+				</li>
+				<li>
+					<a href="#" onmousedown="closeMenuSection1()">PREMIUM PSD FILES</a>
+				</li>
+				<li>
+					<a href="#" onmousedown="closeMenuSection1()">ABOUT</a>
+				</li>
+				<li>
+					<a href="#" onmousedown="closeMenuSection1()">BLOG</a>
+				</li>
+				<li class="headers-adaptive__close-btn" onmousedown="closeMenuSection1()">
+					<a href="#">X</a>
+				</li>
+			</ul>
+
+			<ul class="headers headers-x">
 				<li>
 					<a href="#">PSD WEBSITES</a>
 				</li>
@@ -114,8 +146,8 @@
 				<h2>
 					<a href="http://www.blazrobar.com">BlazRobar.com</a>
 				</h2>
-				<div class="section-5__box-tezt">
-					<div class="box-tezt__left">
+				<div class="section-5__box-text">
+					<div class="box-text__left">
 						<p>
 							Lorem ipsum dolor sit amet, consectetur 
 							adipiscing elit.<br> Nam vehicula ipsum non 
@@ -133,7 +165,25 @@
 							eu vulputate lacus.
 						</p>
 					</div>
-					<div class="box-tezt__right">
+					<div class="box-text__left box-text__left-640">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur<br> 
+							adipiscing elit. Nam vehicula ipsum non 
+							leo<br> tristique eget facilisis lacus commodo.<br> 
+							Curabitur vitae justo lorem, non ornare nibh.<br> 
+							Pellentesque pretium, tellus ac ultrices<br> faucibus,
+							nibh mauris dapibus lorem, vitae<br> viverra nisl 
+							elit sit amet libero. Nam eu<br>  blandit risus.  
+						</p>
+						<p>
+							Phasellus imperdiet mattis nulla. Integer<br> gravida 
+							imperdiet congue. Proin vitae<br> pretium augue. 
+							Donec est sem, mattis et<br> blandit ac, blandit at 
+							arcu. Donec tempus<br> tincidunt suscipit. Suspendisse 
+							eu vulputate<br> lacus.
+						</p>
+					</div>
+					<div class="box-text__right">
 						<p>
 							Lorem ipsum dolor sit amet, consectetur 
 							adipiscing elit.<br> Nam vehicula ipsum non 
@@ -159,6 +209,8 @@
 		<!-- ------------- --> 
 
 	<!-- --------------------- -->
+
+	<script type="text/javascript" src="script/btn-section-1.js"></script>
 
 	</body>
 

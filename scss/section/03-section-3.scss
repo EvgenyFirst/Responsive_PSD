@@ -12,6 +12,9 @@
     @media screen and (max-width: 980px) {
         height: 234px;
     }
+    @media screen and (max-width: 640px) {
+        height: 150px;
+    }
 
 }
 
@@ -35,6 +38,13 @@
             padding-right: 140px;
             padding-bottom: 104px;
         }
+        @media screen and (max-width: 640px) {
+            margin-top: 0;
+            padding-top: 70px;
+            padding-left: 54px;
+            padding-bottom: 65px;
+            font-size: 14px;
+        }
 
     }
 }
@@ -48,6 +58,11 @@
         padding-top: 92px;
         padding-right: 32px;
         padding-left: 104px;
+    }
+    @media screen and (max-width: 640px) {
+        padding-top: 66px;
+        padding-right: 0px;
+        padding-left: 79px;
     }
 
     span {
@@ -64,6 +79,12 @@
             background-repeat: no-repeat;
             width: 22px;
             height: 36px;
+        }
+        @media screen and (max-width: 640px) {
+            background: url(../img/640/arrow-section-3-640.png);
+            background-repeat: no-repeat;
+            width: 15px;
+            height: 24px;
         }
 
     }
