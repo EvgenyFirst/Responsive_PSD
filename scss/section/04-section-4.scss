@@ -32,10 +32,19 @@
         padding-left: 73px;
     }
     @media screen and (max-width: 640px) {
-        padding-top: 239x;
-        padding-right: 300px;
-        padding-left: 302px;
-        padding-bottom: 256px;
+        width: 100%;
+        min-height: 450px;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    @media screen and (max-width: 579px) {
+        width: 87.3%;
+    }
+    @media screen and (max-width: 320px) {
+        padding-right: 0;
+        padding-left: 264px;
+        padding-bottom: 129px;
     }
 
     span {
@@ -61,7 +70,25 @@
             padding: 19px;
 
             position: relative;
-            top: 62px;
+            top: 206px;
+            right: -225px;
+            align-items: center;
+            justify-content: center;
+        }
+        @media screen and (max-width: 579px) {
+            position: relative;
+            right: -208px;
+        }
+        @media screen and (max-width: 320px) {
+            background: url(../img/320/arrow-section-4-320.png);
+            background-repeat: no-repeat;
+            width: 33px;
+            height: 17px;
+            padding: 28px;
+
+            position: relative;
+            top: 28px;
+            right: 103px;
         }
     }
 
@@ -93,6 +120,12 @@
         width: 640px;
         height: 553px;
     }
+    @media screen and (max-width: 320px) {
+        background: url(../img/320/photo-1-section-4-320.jpg);
+        background-repeat: no-repeat;
+        width: 320px;
+        height: 277px;
+    }
 
 }
 .section-4_flex__3 {
@@ -112,6 +145,12 @@
         background-repeat: no-repeat;
         width: 640px;
         height: 557px;
+    }
+    @media screen and (max-width: 320px) {
+        background: url(../img/320/photo-2-section-4-320.jpg);
+        background-repeat: no-repeat;
+        width: 320px;
+        height: 279px;
     }
 
 }

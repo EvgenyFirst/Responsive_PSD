@@ -8,6 +8,8 @@
 
 .section-5 {
     background-color: #ebebeb;
+
+    height: 563;
 }
 
 .section-5__box {
@@ -25,8 +27,14 @@
     @media screen and (max-width: 640px) {
         padding-top: 71px;
         padding-right: 5px;
-        padding-left: 74px;
+        padding-left: 0px;
         padding-bottom: 104px;
+    }
+    @media screen and (max-width: 320px) {
+        padding-top: 35px;
+        padding-right: 5px;
+        padding-left: 38px;
+        padding-bottom: 50px;
     }
 
     h2 {
@@ -34,7 +42,7 @@
         margin-bottom: 0px;
 
         @media screen and (max-width: 640px) {
-            padding-left: 2px;
+            padding-left: 74px;
         }
 
         a {
@@ -42,6 +50,10 @@
             font-size: 30px;
             color: #088ca5;
             font-weight: 500;
+
+            @media screen and (max-width: 320px) {
+                font-size: 19px;
+            }
 
             &:hover {
                 opacity: 0.5;
@@ -62,6 +74,7 @@
 
     @media screen and (max-width: 980px) {
         flex-wrap: wrap;
+        justify-content: center;
     }
 
 }
@@ -73,18 +86,36 @@
     @media screen and (max-width: 980px) {
         width: 378px;
     }
+    @media screen and (max-width: 640px) {
+        margin-left: 64px;
+        padding-left: 10px;
+    }
 
     p {
+        width: 640px;
+
+        position: relative;
+        top: -72px;
+        right: 160px;
+
         margin-top: 0px;
         margin-bottom: 0px;
 
-        font-size: 14px;
+        font-size: 22px;
         color: #515151;
         font-weight: 600;
-        line-height: 1.6;
+        line-height: 2;
+
+        text-shadow: 0.5px 0.866px 0px rgb( 255, 255, 255 );
+        -moz-transform: matrix( 0.5,0,0,0.5,0,0);
+        -webkit-transform: matrix( 0.5,0,0,0.5,0,0);
+        -ms-transform: matrix( 0.5,0,0,0.5,0,0);
 
         @media screen and (max-width: 980px) {
-            font-size: 13px;
+            font-size: 22px;
+            color: #515151;
+            font-weight: 600;
+            line-height: 1.857;
         }
         @media screen and (max-width: 640px) {
             font-size: 22px;
@@ -92,9 +123,24 @@
             font-weight: 600;
             line-height: 2;
         }
+        @media screen and (max-width: 320px) {
+            font-size: 27px;
+            color: #515151;
+            font-weight: 600;
+            line-height: 1.63;
+        }
 
         &:last-child {
             padding-top: 46px;
+
+            position: relative;
+            top: -212px;
+
+            @media screen and (max-width: 980px) {
+                position: relative;
+                top: -189px;
+            }
+
         }
     }
 
@@ -118,15 +164,34 @@
 
 }   
 .box-text__left-640 {
+    display: none;
 
     @media screen and (max-width: 640px) {
         display: block;
-    }  
+    }
+    @media screen and (max-width: 562px) {
+        margin-left: 126px;
+    }
+    @media screen and (max-width: 474px) {
+        margin-left: 218px;
+    }
+    @media screen and (max-width: 374px) {
+        margin-left: 310px;
+    }
+    @media screen and (max-width: 320px) {
+        width: 252px;
+        margin-left: -97px;
+    }
 
 }
 .box-text__right {
     padding-top: 33px;
 
+    @media screen and (max-width: 963px) {
+        position: relative;
+        top: -246px;
+        right: 22px;
+    }
     @media screen and (max-width: 640px) {
         display: none;
     }

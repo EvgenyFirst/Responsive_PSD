@@ -24,6 +24,36 @@ body {
   background-repeat: no-repeat;
 
   //background-image: url(../img/;
+  @media screen and (max-width: 562px) {
+    width: 102%;
+  }
+  @media screen and (max-width: 562px) {
+    width: 103%;
+  }
+  @media screen and (max-width: 562px) {
+    width: 104%;
+  }
+  @media screen and (max-width: 532px) {
+    width: 104.5%;
+  }
+  @media screen and (max-width: 513px) {
+    width: 105%;
+  }
+  @media screen and (max-width: 509px) {
+    width: 105.5%;
+  }
+  @media screen and (max-width: 509px) {
+    width: 106.5%;
+  }
+  @media screen and (max-width: 499px) {
+    width: 107.5%;
+  }
+  @media screen and (max-width: 484px) {
+    width: 108.5%;
+  }
+  @media screen and (max-width: 476px) {
+    width: 109.5%;
+  }
 }
 
 img {
