@@ -6,195 +6,44 @@
 /* ----------- */
 
 .section-2 {
-    margin-top: -1px;
+    background-color: #16b1c4;
+    min-height: 175px;
 }
 
-.section-2__box {
-    background-color: #19b4c6;
-
-    padding-top: 205px;
-    padding-left: 82px;
-    padding-bottom: 169px; 
-
-    @media screen and (max-width: 980px) {
-        padding-top: 192px;
-        padding-left: 81px;
-        padding-bottom: 164px; 
-        padding-right: 5px;
-    }
-    @media screen and (max-width: 640px) {
-        padding-top: 116px;
-        padding-left: 51px;
-        padding-bottom: 53px; 
-        padding-right: 5px;
-    }
-    @media screen and (max-width: 320px) {
-        padding-top: 59px;
-        padding-left: 27px;
-        padding-bottom: 53px; 
-        padding-right: 5px;
-    }
-
-    h2 {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        font-size: 55px;
-        color: #ffffff;
-        font-weight: bold;
-
-        @media screen and (max-width: 640px) {
-            font-size: 35px;
-        }
-        @media screen and (max-width: 337px) {
-            font-size: 25px;
-        }
-        @media screen and (max-width: 320px) {
-            font-size: 19px;
-        }
-
-    }
+.section-2__header {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 58px;
+    padding-left: 26px;
+    font-size: 22px;
+    color: #ffffff;
 }
 
-.box--href {
-    padding-top: 50px;
+.section-2__url {
+    list-style: none;
+    margin-top: 16px;
+    padding-bottom: 53px;
+    padding-left: 26px;
+    display: flex;
+    justify-content: space-between;
+}
 
-    @media screen and (max-width: 980px) {
-        padding-top: 49px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
+.url__info {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.url__link-img-s-two {
+    background: url("../img/320/arrow-section-2-320.png") no-repeat;
+    width: 14px;
+    min-height: 16px;
+    position: absolute;
+
+    right: 30px;
+
+    &:hover {
+        cursor: pointer;
     }
-    @media screen and (max-width: 640px) {
-        padding-top: 31px;
-    }
-    @media screen and (max-width: 320px) {
-        padding-top: 15px;
-    }
-
-    a:first-child {
-        text-decoration: none;
-        font-size: 28px;
-        color: #a9d6df;
-        font-weight: bold;
-
-        &:hover {
-            color: #ffffff;
-            transition: 0.5s;
-        }
-        &:active,
-        &:focus {
-            color: #1c8499;
-            transition: 1s;
-        }
-
-        @media screen and (max-width: 407px) {
-            font-size: 20px;
-        }
-        @media screen and (max-width: 337px) {
-            font-size: 17px;
-        }
-        @media screen and (max-width: 320px) {
-            font-size: 13px;
-        }
-
-        
-        
-    }
-    a:last-child {
-        position: relative;
-        left: 326px;
-        bottom: 7px;
-
-        @media screen and (max-width: 980px) {
-            width: 21px;
-
-            left: 627px;
-            bottom: 27px;
-        }
-        @media screen and (max-width: 730px) {
-            width: 21px;
-
-            left: 492px;
-            bottom: 27px;
-        }
-        @media screen and (max-width: 320px) {
-            padding-top: 15px;
-        }
-
-        span {
-            padding-left: 98px;
-            padding-bottom: 10px;
-    
-            background: url(../img/1024/arrow-section-2-1024.png);
-            background-repeat: no-repeat;
-            width: 17px;
-            height: 27px;
-
-            @media screen and (max-width: 980px) {
-                background: url(../img/980/arrow-section-2-980.png);
-                background-repeat: no-repeat;
-                width: 16px;
-                height: 27px;
-
-                padding-left:14px;
-            }
-            @media screen and (max-width: 731px) {
-                position: relative;
-                right: 95px;
-            }
-            @media screen and (max-width: 668px) {
-                position: relative;
-                right: 95px;
-            }
-            @media screen and (max-width: 640px) {
-                background: url(../img/640/arrow-section-2-640.png);
-                background-repeat: no-repeat;
-                width: 11px;
-                height: 18px;
-
-                position: relative;
-                top: 6px;
-                right: 92px;
-            }
-            @media screen and (max-width: 467px) {
-                position: relative;
-                top: 6px;
-                right: 156px;
-            }
-            @media screen and (max-width: 407px) {
-                position: relative;
-                top: 6px;
-                right: 235px;
-            }
-            @media screen and (max-width: 337px) {
-                position: relative;
-                top: 6px;
-                right: 253px;
-            }
-            @media screen and (max-width: 320px) {
-                background: url(../img/320/arrow-section-2-320.png);
-                background-repeat: no-repeat;
-                width: 14px;
-                height: 16px;
-
-                position: relative;
-                top: 0px;
-                right: 281px;
-            }
-
-        }
-
-        &:hover {
-            opacity: 0.7;
-            transition: 0.5s;
-        }
-        &:active,
-        &:focus {
-            opacity: 0.5;
-            transition: 1s;
-        }
-    }
-
 }
 
 /* ----------- */

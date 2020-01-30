@@ -19,53 +19,44 @@
 
 		<header class="section-1">
 			<h1 class="visually-hidden">Header</h1>
-			<ul class="adaptive-block">
-				<li>
-					<h1 id="nav-adapt">Navigaion</h1>
+			<ul class="section-1__main-nav">
+				<li class="main-nav__header">
+					<h3>Navigation</h3>
 				</li>
-				<li>
-					<a id="btn-adapt" href="#" onmousedown="openMenuSection1()">
-						<span></span>
+				<li class="main-nav__header">
+					<span class="main-nav__btn-open" onmousedown="openMenuSection1()">
+						<h1 class="visually-hidden">Кнопка открытия меню</h1>
+					</span>
+				</li>
+			</ul>
+			<span class="main-nav__btn-close" onmousedown="closeMenuSection1()">
+				<h1 class="visually-hidden">Кнопка закрытия меню</h1>
+			</span>
+			<ul class="section-1__main-menu">
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__item-link">
+						PSD WEBSITES
 					</a>
 				</li>
-			</ul>
-
-			<ul id="headers-adaptive" class="headers headers-adaptive">
-				<li>
-					<a href="#" onmousedown="closeMenuSection1()">PSD WEBSITES</a>
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__item-link">
+						UI KITS
+					</a>
 				</li>
-				<li>
-					<a href="#"onmousedown="closeMenuSection1()">UI KITS</a>
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__item-link">
+						PREMIUM PSD FILES
+					</a>
 				</li>
-				<li>
-					<a href="#" onmousedown="closeMenuSection1()">PREMIUM PSD FILES</a>
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__item-link">
+						ABOUT
+					</a>
 				</li>
-				<li>
-					<a href="#" onmousedown="closeMenuSection1()">ABOUT</a>
-				</li>
-				<li>
-					<a href="#" onmousedown="closeMenuSection1()">BLOG</a>
-				</li>
-				<li class="headers-adaptive__close-btn" onmousedown="closeMenuSection1()">
-					<a href="#">X</a>
-				</li>
-			</ul>
-
-			<ul class="headers headers-x">
-				<li>
-					<a href="#">PSD WEBSITES</a>
-				</li>
-				<li>
-					<a href="#">UI KITS</a>
-				</li>
-				<li>
-					<a href="#">PREMIUM PSD FILES</a>
-				</li>
-				<li>
-					<a href="#">ABOUT</a>
-				</li>
-				<li>
-					<a href="#">BLOG</a>
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__item-link">
+						BLOG
+					</a>
 				</li>
 			</ul>
 		</header>
@@ -80,17 +71,19 @@
 
 		<section class="section-2">
 			<h1 class="visually-hidden">Awesome Free PSD templates & Resources</h1>
-			<div class="section-2__box">
-				<h2>
-					Awesome Free PSD<br> templates & Resources
-				</h2>
-				<div class="box--href">
-					<a href="http://www.blazrobar.com">www.BlazRobar.com</a>
-					<a href="http://www.blazrobar.com">
-						<span></span>
+			<h2 class="section-2__header">Awesome Free PSD templates & Resources</h2>
+			<ul class="section-2__url">
+				<li class="url">
+					<a class="url__info">www.BlazRobar.com</a>
+				</li>
+				<li class="url">
+					<a class="url__link" href="http://www.blazrobar.com">
+						<span class="url__link-img-s-two">
+							<h1 class="visually-hidden">Сcылка на сайт www.BlazRobar.com</h1>
+						</span>
 					</a>
-				</div>
-			</div>
+				</li>
+			</ul>
 		</section>
 
 		<!-- End Section-2 -->
@@ -103,14 +96,18 @@
 
 		<section class="section-3">
 			<h1 class="visually-hidden">I'm like the Robin Hood of PSD files.</h1>
-			<div class="section-3_flex">
-				<div class="section-3_flex__left">
-					<p>I'm like the Robin Hood of PSD files.</p>
-				</div>
-				<a class="section-3_flex__right" href="#">
-					<span></span>
-				</a>
-			</div>
+			<ul class="section-3__flex">
+				<li class="flex__item-s-3">
+					<p>
+						I'm like the Robin Hood of PSD files
+					</p>
+				</li>
+				<li class="flex__item-s-3">
+					<span class="url__link-img-s-three">
+						<h1 class="visually-hidden">Сcылка на сайт www.BlazRobar.com</h1>
+					</span>
+				</li>
+			</ul>
 		</section>
 
 		<!-- End Section-3 -->
@@ -123,13 +120,23 @@
 
 		<section class="section-4">
 			<h1 class="visually-hidden"></h1>	
-			<div class="section-4_flex">
-				<a class="section-4_flex__1" href="#">
-					<span></span>
-				</a>
-				<span class="section-4_flex__2"></span>
-				<span class="section-4_flex__3"></span>
-			</div>
+			<ul class="section-4__flex">
+				<li class="flex__item-s-4">
+					<a href="#">
+						<img src="#" alt="Сcылка на сайт www.BlazRobar.com">
+					</a>
+				</li>
+				<li class="flex__item-s-4">
+					<span class="item-s-4__img-one">
+						<h1 class="visually-hidden">Мост на фотографии</h1>
+					</span>
+				</li>
+				<li class="flex__item-s-4">
+					<span class="item-s-4__img-two">
+						<h1 class="visually-hidden">Дквушка на фотографии</h1>
+					</span>
+				</li>
+			</ul>
 		</section>
 
 		<!-- End Section-4 -->
@@ -142,67 +149,48 @@
 
 		<section class="section-5">
 			<h1 class="visually-hidden">www.BlazRobar.com</h1>
-			<div class="section-5__box">
-				<h2>
-					<a href="http://www.blazrobar.com">BlazRobar.com</a>
-				</h2>
-				<div class="section-5__box-text">
-					<div class="box-text__left">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur 
-							adipiscing elit.<br> Nam vehicula ipsum non 
-							leo tristique eget facilisis lacus<br> commodo. 
-							Curabitur vitae justo lorem, non ornare nibh.<br> 
-							Pellentesque pretium, tellus ac ultrices faucibus,
-							nibh<br> mauris dapibus lorem, vitae viverra nisl 
-							elit sit amet<br> libero. Nam eu blandit risus.  
-						</p>
-						<p>
-							Phasellus imperdiet mattis nulla. Integer gravida<br> 
-							imperdiet congue. Proin vitae pretium augue. 
-							Donec est<br> sem, mattis et blandit ac, blandit at 
-							arcu. Donec tempus<br> tincidunt suscipit. Suspendisse 
-							eu vulputate lacus.
-						</p>
-					</div>
-					<div class="box-text__left box-text__left-640">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur<br> 
-							adipiscing elit. Nam vehicula ipsum non 
-							leo<br> tristique eget facilisis lacus commodo.<br> 
-							Curabitur vitae justo lorem, non ornare nibh.<br> 
-							Pellentesque pretium, tellus ac ultrices<br> faucibus,
-							nibh mauris dapibus lorem, vitae<br> viverra nisl 
-							elit sit amet libero. Nam eu<br>  blandit risus.  
-						</p>
-						<p>
-							Phasellus imperdiet mattis nulla. Integer<br> gravida 
-							imperdiet congue. Proin vitae<br> pretium augue. 
-							Donec est sem, mattis et<br> blandit ac, blandit at 
-							arcu. Donec tempus<br> tincidunt suscipit. Suspendisse 
-							eu vulputate<br> lacus.
-						</p>
-					</div>
-					<div class="box-text__right">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur 
-							adipiscing elit.<br> Nam vehicula ipsum non 
-							leo tristique eget facilisis lacus<br> commodo. 
-							Curabitur vitae justo lorem, non ornare nibh.<br> 
-							Pellentesque pretium, tellus ac ultrices faucibus,
-							nibh<br> mauris dapibus lorem, vitae viverra nisl 
-							elit sit amet<br> libero. Nam eu blandit risus.  
-						</p>
-						<p>
-							Phasellus imperdiet mattis nulla. Integer gravida<br> 
-							imperdiet congue. Proin vitae pretium augue. 
-							Donec est<br> sem, mattis et blandit ac, blandit at 
-							arcu. Donec tempus<br> tincidunt suscipit. Suspendisse 
-							eu vulputate lacus.
-						</p>
-					</div>
-				</div>
-			</div>
+			<h2 class="section-5__header">BlazRobar.com</h2>
+			<ul class="section-5__items">
+				<li class="items">
+					<p class="items__item items__item-1">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Nam vehicula ipsum non leo tristique eget facilisis lacus 
+						commodo. Curabitur vitae justo lorem, non ornare nibh. 
+						Pellentesque pretium, tellus ac ultrices faucibus, nibh 
+						mauris dapibus lorem, vitae viverra nisl elit sit amet libero. 
+						Nam eu blandit risus.
+					</p>
+				</li>
+				<li class="items">
+					<p class="items__item items__item-2">
+						Phasellus imperdiet mattis nulla. Integer gravida 
+						imperdiet congue. Proin vitae pretium augue. Donec 
+						est sem, mattis et blandit ac, blandit at arcu. 
+						Donec tempus tincidunt suscipit. Suspendisse eu 
+						vulputate lacus.
+					</p>
+				</li>
+				<li class="items">
+					<p class="items__item items__item-3">
+						Lorem ipsum dolor sit amet, consectetur adipiscing 
+						elit. Nam vehicula ipsum non leo tristique 
+						eget facilisis lacus commodo. Curabitur vitae 
+						justo lorem, non ornare nibh. Pellentesque pretium, 
+						tellus ac ultrices faucibus, nibh mauris dapibus 
+						lorem, vitae viverra nisl elit sit amet libero. 
+						Nam eu blandit risus.
+					</p>
+				</li>
+				<li class="items">
+					<p class="items__item items__item-4">
+						Phasellus imperdiet mattis nulla. Integer gravida 
+						imperdiet congue. Proin vitae pretium augue. 
+						Donec est sem, mattis et blandit ac, blandit at arcu. 
+						Donec tempus tincidunt suscipit. Suspendisse eu 
+						vulputate lacus.
+					</p>
+				</li>
+			</ul>
 		</section>
 
 		<!-- End Section-5 -->

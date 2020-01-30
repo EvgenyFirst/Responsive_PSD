@@ -5,165 +5,82 @@
 /*  Section-1  */
 /* ----------- */
 
-.section-1 {
-    background-color: #373c3f;
-
-    @media screen and (max-width: 640px) {
-        min-height: 77px;
-    }
-    @media screen and (max-width: 320px) {
-        min-height: 37px;
-    }
-
-}
-//padding-top: 45px;
-//padding-left: 54px;
-//padding-bottom: 41px; 
-
-.adaptive-block {
-    display: none;
-
-    @media screen and (max-width: 640px) {
-        display: flex;
-        flex-direction: row;
-        list-style: none;
-
-        justify-content: space-between;
-
-        margin-top: 0px;
-        margin-bottom: 0px;
-
-        li {
-            h1 {
-                color: #ebebeb;
-                font-weight: 600;
-                font-size: 31px;
-            }
-
-            a {
-                span {
-                    position: absolute;
-                    right: 3px;
-        
-                    background: url(../img/640/burger-btn-section-1-640.jpg);
-                    background-repeat: no-repeat;
-                    width: 82px;
-                    height: 74px;
-                }
-            }
-        }
-    
-    }
-    @media screen and (max-width: 320px) {
-        display: flex;
-        flex-direction: row;
-        list-style: none;
-
-        justify-content: space-between;
-
-        margin-top: 0px;
-        margin-bottom: 0px;
-
-        li {
-            h1 {
-                color: #ebebeb;
-                font-weight: 600;
-                font-size: 16px;
-            }
-
-            a {
-                span {
-                    position: absolute;
-                    right: 0px;
-        
-                    background: url(../img/320/burger-btn-section-1-320.jpg);
-                    background-repeat: no-repeat;
-                    width: 41px;
-                    height: 37px;
-                }
-            }
-        }
-    
-    }
-
-}
-
-.headers {
+.section-1__main-nav,
+.section-1__main-menu,
+.main-menu__item {
     list-style: none;
+}
+
+.section-1__main-nav {
     display: flex;
-
-    margin-top: 0px;
-    margin-bottom: 0px;
-
-    padding-top: 45px;
-    padding-left: 54px;
-    padding-bottom: 41px; 
-     
-    li {
-        padding-left: 14px;
-        padding-right: 14px;
-
-        &:first-child {
-            padding-left: 0px;
-        }
-        &:last-child {
-            padding-right: 0px;
-        }
-
-        a {
-            text-decoration: none;
-            color: #ebebeb;
-            font-weight: 500;
-            font-size: 15px;
-
-            &:hover {
-                color: #19b4c6;
-                transition: 0.5s;
-            }
-            &:active,
-            &:focus {
-                color: aqua;
-            }
-
-        }
-    }
-
-}
-.headers-x {
-
-    @media screen and (max-width: 640px) {
-        display: none;
-    }
-
+    justify-content: space-between;
+    background-color: #373c3f;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
-.headers-adaptive {
+.main-nav__header {
+    margin-left: 18px;
+    h3 {
+        font-size: 12px;
+        color: #ffffff;
+    }
+}
+
+.main-nav__btn-open {
+    background: url("../img/320/burger-btn-section-1-320.jpg") no-repeat;
+    width: 41px;
+    min-height: 37px;
+    position: absolute;
+
+    right: 0;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.section-1__main-menu {
+    background-color: #373c3f;
+    margin-top: 0;
+    padding-top: 9px;
+    padding-left: 19px;
+    padding-bottom: 9px;
+    margin-bottom: 0;
+
     display: none;
-    padding-top: 30px;
-    padding-bottom: 29px;
-    max-width: 640px;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-    justify-content: center;
-
-    @media screen and (max-width: 641px) {
-        display: none;
-    }
-
 }
-.headers-adaptive__close-btn {
-    margin-top: -25px;
+
+.main-menu__item-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: normal;
+    padding-left: 0;
+}
+
+.main-nav__btn-close {
+    display: none;
     
+    margin-left: 50px;
+    font-weight: bold;
 
-    @media screen and (max-width: 634px) {
-        margin-top: 25px;
-        margin-right: 10px;
-    }
-    @media screen and (max-width: 610px) {
-        margin-top: 0px;
+    position: absolute;
+    top: 2px;
+    right: 29px;
+
+    &:hover {
+        cursor: pointer;
     }
 
+    &:before {
+        content: "+";
+        font-size: 30px;
+        position: absolute;
+        transform: rotate(45deg);
+        color: #ffffff;
+    }
 }
 
 /* ----------- */

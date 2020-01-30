@@ -1,6 +1,5 @@
 /* ------------------------------------------------------------ */
 html {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -13,47 +12,17 @@ html {
 }*/
 
 body {
-  min-width: 1280px;
-  margin: 0;
-  padding: 0;
+// margin: 0;
+// padding: 0;
   font-family: "Montserrat", Arial, sans-serif;
   font-size: 16px;
   font-weight: 500;
-  background-color: #ffffff;
-  background-position: top center;
-  background-repeat: no-repeat;
+// background-color: #ffffff;
+// background-position: top center;
+// background-repeat: no-repeat;
 
-  //background-image: url(../img/;
-  @media screen and (max-width: 562px) {
-    width: 102%;
-  }
-  @media screen and (max-width: 562px) {
-    width: 103%;
-  }
-  @media screen and (max-width: 562px) {
-    width: 104%;
-  }
-  @media screen and (max-width: 532px) {
-    width: 104.5%;
-  }
-  @media screen and (max-width: 513px) {
-    width: 105%;
-  }
-  @media screen and (max-width: 509px) {
-    width: 105.5%;
-  }
-  @media screen and (max-width: 509px) {
-    width: 106.5%;
-  }
-  @media screen and (max-width: 499px) {
-    width: 107.5%;
-  }
-  @media screen and (max-width: 484px) {
-    width: 108.5%;
-  }
-  @media screen and (max-width: 476px) {
-    width: 109.5%;
-  }
+//background-image: url(../img/);
+
 }
 
 img {
@@ -61,7 +30,6 @@ img {
 }
 
 .container {
-  max-width: 1024px;
   min-width: 320px;
   margin: 0 auto;
 }
@@ -69,14 +37,6 @@ img {
 .visually-hidden {
   display: none;
   text-align: center;
-}
-
-.section__box {
-  // padding: 50px;
-  padding-top: 21px;
-  padding-left: 48px;
-  padding-right: 50px;
-  // padding-bottom: 50px;
 }
 
 /* ------------------------------------------------------------ */
