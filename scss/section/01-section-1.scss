@@ -8,85 +8,129 @@
 .section-1__main-nav,
 .section-1__main-menu,
 .main-menu__item {
-    list-style: none;
+  list-style: none;
 }
 
 .section-1__main-nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: #373c3f;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+
+  background-color: #373c3f;
 }
 
 .main-nav__header {
-    margin-left: 18px;
-    h3 {
-        font-size: 12px;
-        color: #ffffff;
-    }
+  margin-left: 18px;
+
+  h3 {
+    font-size: 12px;
+    color: #ffffff;
+  }
 }
 
 .main-nav__btn-open {
-    background: url("../img/320/burger-btn-section-1-320.jpg") no-repeat;
-    width: 41px;
-    min-height: 37px;
-    position: absolute;
+  background: url("../img/320/burger-btn-section-1-320.jpg") no-repeat;
+  width: 41px;
+  min-height: 37px;
 
-    right: 0;
+  position: absolute;
+  right: 0;
 
-    &:hover {
-        cursor: pointer;
-    }
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .section-1__main-menu {
-    background-color: #373c3f;
-    margin-top: 0;
-    padding-top: 9px;
-    padding-left: 19px;
-    padding-bottom: 9px;
-    margin-bottom: 0;
+  display: none;
 
-    display: none;
+  margin-top: 0;
+  padding-top: 9px;
+  padding-left: 19px;
+  padding-bottom: 9px;
+  margin-bottom: 0;
+
+  background-color: #373c3f;
 }
 
 .main-menu__item-link {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 12px;
-    font-weight: normal;
-    padding-left: 0;
+  padding-left: 0;
+
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: normal;
+
+  text-decoration: none;
 }
 
 .main-nav__btn-close {
-    display: none;
-    
-    margin-left: 50px;
+  display: none;
+
+  margin-left: 50px;
+
+  position: absolute;
+  top: 2px;
+  right: 29px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:before {
+    content: "+";
+    font-size: 30px;
     font-weight: bold;
 
     position: absolute;
-    top: 2px;
-    right: 29px;
+    transform: rotate(45deg);
+    color: #ffffff;
+  }
+}
 
-    &:hover {
-        cursor: pointer;
+@media (min-width: 640px) {
+  .main-nav__header {
+    margin-left: 38px;
+    
+    h3 {
+      font-size: 24px;
     }
+  }
+
+  .main-nav__btn-open {
+    background: url("../img/640/burger-btn-section-1-640.jpg") no-repeat;
+    width: 82px;
+    min-height: 74px;
+  }
+
+  .section-1__main-menu {
+    padding-top: 22.5px;
+    padding-left: 38px;
+    padding-bottom: 22.5px;
+  }
+
+  .main-menu__item-link {
+    font-size: 24px;
+  }
+
+  .main-nav__btn-close {
+    display: none;
+
+    top: 4px;
+    right: 55px;
 
     &:before {
-        content: "+";
-        font-size: 30px;
-        position: absolute;
-        transform: rotate(45deg);
-        color: #ffffff;
+      font-size: 56px;
     }
+  }
 }
 
 /* ----------- */
 /*  Section-1  */
 /*     end     */
 /* ----------- */
- 
+
 /* ------------------------------------------------------------ */
 /* ------------------------------------------------------------ */

@@ -6,55 +6,94 @@
 /* ----------- */
 
 .section-4__flex {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    //flex-grow: 1;
-    flex-wrap: wrap;
+  list-style: none;
 
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .flex__item-s-4 {
+  &:first-child {
+    background-color: #5b0fa1;
 
-    &:first-child {
-        background-color: #5b0fa1;
-        padding-top: 119px;
-        padding-left: 150px;
-        padding-right: 153px;
-        padding-bottom: 128px;
-        text-align: center;
-    }
+    padding-top: 119px;
+    padding-left: 150px;
+    padding-right: 153px;
+    padding-bottom: 128px;
 
-    &:nth-child(2) {
-        background: url(../img/320/photo-1-section-4-320.jpg) no-repeat;
-        background-size: cover;
-        width: auto;
-        min-height: 277px;
-    }
+    text-align: center;
+  }
 
-    &:last-child {
-        background: url(../img/320/photo-2-section-4-320.jpg) no-repeat;
-        background-size: cover;
-        width: auto;
-        min-height: 279px;
-    }
+  &:nth-child(2) {
+    background: url("../img/320/photo-1-section-4-320.jpg") no-repeat;
+    background-size: cover;
+    width: auto;
+    min-height: 277px;
+  }
+
+  &:last-child {
+    background: url("../img/320/photo-2-section-4-320.jpg") no-repeat;
+    background-size: cover;
+    width: auto;
+    min-height: 279px;
+  }
 }
 
 .url__link-img-s-4 {
-    background: url(../img/320/arrow-section-4-320.png) no-repeat;
+  background: url("../img/320/arrow-section-4-320.png") no-repeat;
+  background-size: cover;
+  width: 17px;
+  min-height: 28px;
+
+  position: absolute;
+}
+
+@media (min-width: 640px) {
+  .flex__item-s-4 {
+    &:first-child {
+      background-color: #5b0fa1;
+      
+      padding-top: 229px;
+      padding-left: 301px;
+      padding-right: 307px;
+      padding-bottom: 258px;
+
+      text-align: center;
+    }
+
+    &:nth-child(2) {
+      background: url("../img/640/photo-1-section-4-640.jpg") no-repeat;
+      background-size: cover;
+      width: auto;
+      min-height: 553px;
+    }
+
+    &:last-child {
+      background: url("../img/640/photo-2-section-4-640.jpg") no-repeat;
+      background-size: cover;
+      width: auto;
+      min-height: 557px;
+    }
+  }
+
+  .url__link-img-s-4 {
+    background: url("../img/640/arrow-section-4-640.png") no-repeat;
     background-size: cover;
-    width: 17px;
-    min-height: 28px;
+    width: 33px;
+    min-height: 55px;
     position: absolute;
+  }
 }
 
 /* ----------- */
 /*  Section-4  */
 /*     end     */
 /* ----------- */
- 
+
 /* ------------------------------------------------------------ */
 /* ------------------------------------------------------------ */
