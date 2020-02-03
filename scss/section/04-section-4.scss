@@ -57,7 +57,7 @@
   .flex__item-s-4 {
     &:first-child {
       background-color: #5b0fa1;
-      
+
       padding-top: 229px;
       padding-left: 301px;
       padding-right: 307px;
@@ -89,6 +89,43 @@
     position: absolute;
   }
 }
+
+@media (min-width: 980px) {
+
+  .section-4__flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: stretch;
+  }
+
+    .flex__item-s-4 {
+      &:first-child {
+        flex-grow: 1;
+        padding-top: 119px;
+        padding-left: 153px;
+        padding-right: 155px;
+        padding-bottom: 134px;
+      }
+  
+      &:nth-child(2) {
+        background: url("../img/980/photo-1-section-4-980.jpg") no-repeat;
+        min-height: 282px;
+        min-width: 326px;
+      }
+  
+      &:last-child {
+        background: url("../img/980/photo-2-section-4-980.jpg") no-repeat;
+        min-height: 282px;
+        min-width: 326px;
+      }
+    }
+  
+    .url__link-img-s-4 {
+      background: url("../img/980/arrow-section-4-980.png") no-repeat;
+      width: 18px;
+    }
+  }
 
 /* ----------- */
 /*  Section-4  */

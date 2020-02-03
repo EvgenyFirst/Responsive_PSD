@@ -62,14 +62,11 @@
   .flex__item-s-3 {
     p {
       font-size: 16px;
-      
+
       padding-top: 71px;
       padding-left: 55px;
       padding-right: 92px;
       padding-bottom: 64px;
-    }
-
-    &:first-child {
     }
 
     &:last-child {
@@ -87,6 +84,36 @@
     background: url("../img/640/arrow-section-3-640.png") no-repeat;
     width: 15px;
     min-height: 24px;
+  }
+}
+
+@media (min-width: 980px) {
+  .section-3__flex {
+    min-height: 237px;
+  }
+  .flex__item-s-3 {
+    p {
+      font-size: 30px;
+
+      padding-top: 123px;
+      padding-left: 64px;
+      padding-right: 109px;
+      padding-bottom: 104px;
+    }
+
+    &:last-child {
+      a {
+        padding-top: 52px;
+        padding-left: 0;
+        padding-bottom: 30px;
+      }
+    }
+  }
+
+  .url__link-img-s-three {
+    background: url("../img/980/arrow-section-3-980.png") no-repeat;
+    width: 22px;
+    min-height: 36px;
   }
 }
 
