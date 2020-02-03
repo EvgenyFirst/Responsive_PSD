@@ -134,7 +134,7 @@
 
   .section-1__main-menu {
     display: flex;
-    padding-top: 48px;
+    padding-top: 45px;
     padding-left: 54px;
     padding-bottom: 41px;
   }
@@ -158,12 +158,6 @@
     &:nth-child(5) {
       padding-left: 15px;
     }
-  }
-
-  .main-nav__btn-open {
-    background: url("../img/640/burger-btn-section-1-640.jpg") no-repeat;
-    width: 82px;
-    min-height: 74px;
   }
 
   .main-menu__item-link {

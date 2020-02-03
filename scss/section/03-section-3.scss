@@ -104,7 +104,7 @@
     &:last-child {
       a {
         padding-top: 52px;
-        padding-left: 0;
+        padding-left: 40px;
         padding-bottom: 30px;
       }
     }
@@ -114,6 +114,38 @@
     background: url("../img/980/arrow-section-3-980.png") no-repeat;
     width: 22px;
     min-height: 36px;
+  }
+}
+
+@media (min-width: 980px) {
+  .section-3__flex {
+    min-height: 244px;
+  }
+  .flex__item-s-3 {
+    padding: 0;
+    p {
+      font-size: 31px;
+
+      padding-top: 112px;
+      padding-left: 87px;
+      padding-left: 87px;
+      padding-bottom: 107px;
+    }
+
+    &:last-child {
+      a {
+        padding-top: 33px;
+        padding-right: 70px;
+        padding-bottom: 70px;
+      }
+    }
+  }
+
+  .url__link-img-s-three {
+    background: url("../img/1024/arrow-section-3-1024.png") no-repeat;
+    width: 22px;
+    min-height: 38px;
+    margin-left: 14px;
   }
 }
 

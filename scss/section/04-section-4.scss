@@ -127,6 +127,43 @@
     }
   }
 
+  @media (min-width: 1024px) {
+
+    .section-4__flex {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-content: stretch;
+    }
+  
+      .flex__item-s-4 {
+        &:first-child {
+          flex-grow: 1;
+          padding-top: 126px;
+          padding-left: 160px;
+          padding-right: 163px;
+          padding-bottom: 140px;
+        }
+    
+        &:nth-child(2) {
+          background: url("../img/1024/photo-1-section-4-1024.jpg") no-repeat;
+          min-width: 341px;
+          min-height: 294px;
+        }
+    
+        &:last-child {
+          background: url("../img/1024/photo-2-section-4-1024.jpg") no-repeat;
+          min-width: 341px;
+          min-height: 294px;
+        }
+      }
+    
+      .url__link-img-s-4 {
+        background: url("../img/1024/arrow-section-4-1024.png") no-repeat;
+        width: 18px;
+      }
+    }
+
 /* ----------- */
 /*  Section-4  */
 /*     end     */

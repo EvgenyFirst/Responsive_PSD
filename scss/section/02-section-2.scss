@@ -102,6 +102,31 @@
     }
   }
 
+  @media (min-width: 1024px) {
+    .section-2__header {
+      padding-top: 205px;
+      padding-left: 82px;
+      font-size: 62px;
+    }
+  
+    .section-2__url {
+      margin-top: 51px;
+      padding-left: 83px;
+      padding-bottom: 170px;
+    }
+  
+    .url__info {
+      font-size: 27px;
+    }
+  
+    .url__link-img-s-two {
+      background: url("../img/1024/arrow-section-2-1024.png") no-repeat;
+      width: 17px;
+      min-height: 27px;
+      right: 222px;
+    }
+  }
+
 /* ----------- */
 /*  Section-2  */
 /*     end     */
