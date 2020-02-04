@@ -204,34 +204,35 @@ img {
 .section-2__header {
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 58px;
+  padding-top: 54px;
   padding-left: 26px;
-  font-size: 22px;
+  font-size: 19px;
   color: #ffffff;
 }
 
 .section-2__url {
   list-style: none;
-  margin-top: 16px;
+  margin-top: 12px;
   margin-bottom: 0;
   padding-bottom: 53px;
-  padding-left: 26px;
+  padding-left: 27px;
   display: flex;
   justify-content: space-between;
 }
 
 .url__info {
-  font-size: 16px;
+  font-size: 11px;
   color: #ffffff;
   opacity: 0.65;
 }
 
 .url__link-img-s-two {
-  background: url("../img/320/arrow-section-2-320.png") no-repeat;
+  background: url(../img/320/arrow-section-2-320.png) no-repeat;
   width: 14px;
   min-height: 16px;
   position: absolute;
-  right: 30px;
+  top: 146px;
+  right: 64px;
 }
 .url__link-img-s-two:hover {
   cursor: pointer;
@@ -337,33 +338,34 @@ img {
   flex-grow: 1;
 }
 .flex__item-s-3 p {
-  margin: 0;
-  padding-top: 36px;
+  margin-bottom: 30px;
+  padding-top: 24px;
   padding-left: 27px;
-  padding-right: 46px;
-  padding-bottom: 32px;
   color: #a695b6;
-  font-size: 10px;
+  font-size: 9px;
 }
 .flex__item-s-3:first-child {
   background-color: #27212c;
+  margin-top: -3px;
   min-width: 249px;
 }
 .flex__item-s-3:last-child {
   display: flex;
   background-color: #bc3183;
   padding-top: 31px;
-  padding-left: 26px;
+  padding-left: 36px;
   padding-right: 33px;
   padding-bottom: 34px;
 }
 
 .url__link-img-s-three {
-  background: url("../img/320/arrow-section-3-320.png") no-repeat;
+  background: url(../img/320/arrow-section-3-320.png) no-repeat;
   background-size: cover;
   width: 8px;
   min-height: 13px;
   position: absolute;
+  top: 241px;
+  right: 32px;
 }
 
 @media (min-width: 640px) {
@@ -464,9 +466,9 @@ img {
 .flex__item-s-4:first-child {
   background-color: #5b0fa1;
   padding-top: 119px;
-  padding-left: 150px;
+  padding-left: 137px;
   padding-right: 153px;
-  padding-bottom: 128px;
+  padding-bottom: 156px;
   text-align: center;
 }
 .flex__item-s-4:nth-child(2) {
@@ -481,8 +483,7 @@ img {
   width: auto;
   min-height: 279px;
 }
-
-.url__link-img-s-4 {
+.flex__item-s-4 .url__link-img-s-4 {
   background: url("../img/320/arrow-section-4-320.png") no-repeat;
   background-size: cover;
   width: 17px;
@@ -593,7 +594,7 @@ img {
 /* ----------- */
 /*  Section-5  */
 /* ----------- */
-.items__item-3,
+.items__item-2,
 .items__item-4 {
   display: none;
 }
@@ -632,11 +633,11 @@ img {
 }
 
 .items__item-1 {
-  margin-top: 26px;
+  margin-top: 5px;
 }
 
-.items__item-2 {
-  margin-top: 36px;
+.items__item-3 {
+  margin-top: 3px;
 }
 
 @media (min-width: 640px) {

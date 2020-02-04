@@ -13,35 +13,42 @@
 .section-2__header {
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 58px;
+
+  padding-top: 54px;
   padding-left: 26px;
-  font-size: 22px;
+
+  font-size: 19px;
   color: #ffffff;
 }
 
 .section-2__url {
   list-style: none;
-  margin-top: 16px;
+
+  margin-top: 12px;
   margin-bottom: 0;
+
   padding-bottom: 53px;
-  padding-left: 26px;
+  padding-left: 27px;
+
   display: flex;
   justify-content: space-between;
 }
 
 .url__info {
-  font-size: 16px;
+  font-size: 11px;
   color: #ffffff;
   opacity: 0.65;
 }
 
 .url__link-img-s-two {
-  background: url("../img/320/arrow-section-2-320.png") no-repeat;
+  background: url(../img/320/arrow-section-2-320.png) no-repeat;
+
   width: 14px;
   min-height: 16px;
-  position: absolute;
 
-  right: 30px;
+  position: absolute;
+  top: 146px;
+  right: 64px;
 
   &:hover {
     cursor: pointer;

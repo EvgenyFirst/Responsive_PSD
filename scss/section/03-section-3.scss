@@ -22,18 +22,21 @@
   flex-grow: 1;
 
   p {
-    margin: 0;
-    padding-top: 36px;
+    margin-bottom: 30px;
+
+    padding-top: 24px;
     padding-left: 27px;
-    padding-right: 46px;
-    padding-bottom: 32px;
 
     color: #a695b6;
-    font-size: 10px;
+
+    font-size: 9px;
   }
 
   &:first-child {
     background-color: #27212c;
+
+    margin-top: -3px;
+
     min-width: 249px;
   }
 
@@ -43,19 +46,22 @@
     background-color: #bc3183;
 
     padding-top: 31px;
-    padding-left: 26px;
+    padding-left: 36px;
     padding-right: 33px;
     padding-bottom: 34px;
   }
 }
 
 .url__link-img-s-three {
-  background: url("../img/320/arrow-section-3-320.png") no-repeat;
+  background: url(../img/320/arrow-section-3-320.png) no-repeat;
   background-size: cover;
+
   width: 8px;
   min-height: 13px;
 
   position: absolute;
+  top: 241px;
+  right: 32px;
 }
 
 @media (min-width: 640px) {
