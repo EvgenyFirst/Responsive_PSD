@@ -57,14 +57,16 @@
 
 @media (min-width: 640px) {
   .section-2__header {
-    padding-top: 116px;
+    padding-top: 111px;
     padding-left: 52px;
+
     font-size: 38.3px;
   }
 
   .section-2__url {
-    margin-top: 32px;
-    padding-left: 52px;
+    margin-top: 28px;
+
+    padding-left: 54px;
     padding-right: 52px;
     padding-bottom: 106px;
   }
@@ -78,6 +80,7 @@
     width: 11px;
     min-height: 18px;
 
+    top: 302px;
     right: 138px;
   }
 }
@@ -86,11 +89,13 @@
     .section-2__header {
       padding-top: 192px;
       padding-left: 79px;
+
       font-size: 59px;
     }
   
     .section-2__url {
       margin-top: 49px;
+
       padding-left: 79px;
       padding-right: 52px;
       padding-bottom: 164px;
@@ -113,11 +118,13 @@
     .section-2__header {
       padding-top: 205px;
       padding-left: 82px;
+
       font-size: 62px;
     }
   
     .section-2__url {
       margin-top: 51px;
+
       padding-left: 83px;
       padding-bottom: 170px;
     }
@@ -130,6 +137,7 @@
       background: url("../img/1024/arrow-section-2-1024.png") no-repeat;
       width: 17px;
       min-height: 27px;
+
       right: 222px;
     }
   }
