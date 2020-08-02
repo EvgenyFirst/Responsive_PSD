@@ -60,8 +60,12 @@
   min-height: 13px;
 
   position: absolute;
-  top: 241px;
+  top: 248px;
   right: 32px;
+}
+
+.fix-arrow-sect-three {
+  top: 320px;
 }
 
 @media (min-width: 640px) {
@@ -89,6 +93,10 @@
     }
   }
 
+  .fix-arrow-sect-three {
+    top: 641px;
+  }
+
   .url__link-img-s-three {
     background: url("../img/640/arrow-section-3-640.png") no-repeat;
     width: 15px;
@@ -96,6 +104,12 @@
 
     top: 487px;
     right: 67px;
+  }
+}
+
+@media (min-width: 647px) {
+  .fix-arrow-sect-three {
+    top: 599px;
   }
 }
 
@@ -158,6 +172,15 @@
     width: 22px;
     min-height: 38px;
     margin-left: 14px;
+
+    position: absolute;
+    top: 786px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .url__link-img-s-three {
+    top: 813px;
   }
 }
 
